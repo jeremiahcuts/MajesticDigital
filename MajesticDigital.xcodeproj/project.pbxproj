@@ -12,27 +12,7 @@
 		0C67617B2A5795D900870981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C67617A2A5795D900870981 /* Assets.xcassets */; };
 		0C67617E2A5795D900870981 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C67617D2A5795D900870981 /* Preview Assets.xcassets */; };
 		0C6761802A5795D900870981 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67617F2A5795D900870981 /* Item.swift */; };
-		0C67618C2A5795D900870981 /* MajesticDigitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67618B2A5795D900870981 /* MajesticDigitalTests.swift */; };
-		0C6761962A5795D900870981 /* MajesticDigitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6761952A5795D900870981 /* MajesticDigitalUITests.swift */; };
-		0C6761982A5795D900870981 /* MajesticDigitalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6761972A5795D900870981 /* MajesticDigitalUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0C6761882A5795D900870981 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C67616B2A5795D600870981 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C6761722A5795D600870981;
-			remoteInfo = MajesticDigital;
-		};
-		0C6761922A5795D900870981 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C67616B2A5795D600870981 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C6761722A5795D600870981;
-			remoteInfo = MajesticDigital;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0C6761732A5795D600870981 /* MajesticDigital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MajesticDigital.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,29 +23,10 @@
 		0C67617F2A5795D900870981 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		0C6761812A5795D900870981 /* MajesticDigital.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MajesticDigital.entitlements; sourceTree = "<group>"; };
 		0C6761822A5795D900870981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C6761872A5795D900870981 /* MajesticDigitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajesticDigitalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C67618B2A5795D900870981 /* MajesticDigitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajesticDigitalTests.swift; sourceTree = "<group>"; };
-		0C6761912A5795D900870981 /* MajesticDigitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MajesticDigitalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C6761952A5795D900870981 /* MajesticDigitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajesticDigitalUITests.swift; sourceTree = "<group>"; };
-		0C6761972A5795D900870981 /* MajesticDigitalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajesticDigitalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0C6761702A5795D600870981 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C6761842A5795D900870981 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C67618E2A5795D900870981 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,8 +40,6 @@
 			isa = PBXGroup;
 			children = (
 				0C6761752A5795D600870981 /* MajesticDigital */,
-				0C67618A2A5795D900870981 /* MajesticDigitalTests */,
-				0C6761942A5795D900870981 /* MajesticDigitalUITests */,
 				0C6761742A5795D600870981 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,8 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				0C6761732A5795D600870981 /* MajesticDigital.app */,
-				0C6761872A5795D900870981 /* MajesticDigitalTests.xctest */,
-				0C6761912A5795D900870981 /* MajesticDigitalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,23 +74,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0C67618A2A5795D900870981 /* MajesticDigitalTests */ = {
-			isa = PBXGroup;
-			children = (
-				0C67618B2A5795D900870981 /* MajesticDigitalTests.swift */,
-			);
-			path = MajesticDigitalTests;
-			sourceTree = "<group>";
-		};
-		0C6761942A5795D900870981 /* MajesticDigitalUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0C6761952A5795D900870981 /* MajesticDigitalUITests.swift */,
-				0C6761972A5795D900870981 /* MajesticDigitalUITestsLaunchTests.swift */,
-			);
-			path = MajesticDigitalUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,42 +94,6 @@
 			productReference = 0C6761732A5795D600870981 /* MajesticDigital.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0C6761862A5795D900870981 /* MajesticDigitalTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C67619E2A5795D900870981 /* Build configuration list for PBXNativeTarget "MajesticDigitalTests" */;
-			buildPhases = (
-				0C6761832A5795D900870981 /* Sources */,
-				0C6761842A5795D900870981 /* Frameworks */,
-				0C6761852A5795D900870981 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C6761892A5795D900870981 /* PBXTargetDependency */,
-			);
-			name = MajesticDigitalTests;
-			productName = MajesticDigitalTests;
-			productReference = 0C6761872A5795D900870981 /* MajesticDigitalTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0C6761902A5795D900870981 /* MajesticDigitalUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C6761A12A5795D900870981 /* Build configuration list for PBXNativeTarget "MajesticDigitalUITests" */;
-			buildPhases = (
-				0C67618D2A5795D900870981 /* Sources */,
-				0C67618E2A5795D900870981 /* Frameworks */,
-				0C67618F2A5795D900870981 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C6761932A5795D900870981 /* PBXTargetDependency */,
-			);
-			name = MajesticDigitalUITests;
-			productName = MajesticDigitalUITests;
-			productReference = 0C6761912A5795D900870981 /* MajesticDigitalUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,14 +106,6 @@
 				TargetAttributes = {
 					0C6761722A5795D600870981 = {
 						CreatedOnToolsVersion = 15.0;
-					};
-					0C6761862A5795D900870981 = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 0C6761722A5795D600870981;
-					};
-					0C6761902A5795D900870981 = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 0C6761722A5795D600870981;
 					};
 				};
 			};
@@ -227,8 +123,6 @@
 			projectRoot = "";
 			targets = (
 				0C6761722A5795D600870981 /* MajesticDigital */,
-				0C6761862A5795D900870981 /* MajesticDigitalTests */,
-				0C6761902A5795D900870981 /* MajesticDigitalUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,20 +134,6 @@
 			files = (
 				0C67617E2A5795D900870981 /* Preview Assets.xcassets in Resources */,
 				0C67617B2A5795D900870981 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C6761852A5795D900870981 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C67618F2A5795D900870981 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,37 +150,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C6761832A5795D900870981 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C67618C2A5795D900870981 /* MajesticDigitalTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C67618D2A5795D900870981 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C6761962A5795D900870981 /* MajesticDigitalUITests.swift in Sources */,
-				0C6761982A5795D900870981 /* MajesticDigitalUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0C6761892A5795D900870981 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C6761722A5795D600870981 /* MajesticDigital */;
-			targetProxy = 0C6761882A5795D900870981 /* PBXContainerItemProxy */;
-		};
-		0C6761932A5795D900870981 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C6761722A5795D600870981 /* MajesticDigital */;
-			targetProxy = 0C6761922A5795D900870981 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0C6761992A5795D900870981 /* Debug */ = {
@@ -428,10 +278,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MajesticDigital/MajesticDigital.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MajesticDigital/Preview Content\"";
-				DEVELOPMENT_TEAM = AQXJ7WD64F;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MajesticDigital/Info.plist;
@@ -447,6 +298,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Majestic-DP.MajesticDigital";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,10 +311,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MajesticDigital/MajesticDigital.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MajesticDigital/Preview Content\"";
-				DEVELOPMENT_TEAM = AQXJ7WD64F;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MajesticDigital/Info.plist;
@@ -478,85 +331,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Majestic-DP.MajesticDigital";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		0C67619F2A5795D900870981 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AQXJ7WD64F;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Majestic-DP.MajesticDigitalTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MajesticDigital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MajesticDigital";
-			};
-			name = Debug;
-		};
-		0C6761A02A5795D900870981 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AQXJ7WD64F;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Majestic-DP.MajesticDigitalTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MajesticDigital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MajesticDigital";
-			};
-			name = Release;
-		};
-		0C6761A22A5795D900870981 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AQXJ7WD64F;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Majestic-DP.MajesticDigitalUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MajesticDigital;
-			};
-			name = Debug;
-		};
-		0C6761A32A5795D900870981 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AQXJ7WD64F;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Majestic-DP.MajesticDigitalUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MajesticDigital;
 			};
 			name = Release;
 		};
@@ -577,24 +355,6 @@
 			buildConfigurations = (
 				0C67619C2A5795D900870981 /* Debug */,
 				0C67619D2A5795D900870981 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0C67619E2A5795D900870981 /* Build configuration list for PBXNativeTarget "MajesticDigitalTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C67619F2A5795D900870981 /* Debug */,
-				0C6761A02A5795D900870981 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0C6761A12A5795D900870981 /* Build configuration list for PBXNativeTarget "MajesticDigitalUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C6761A22A5795D900870981 /* Debug */,
-				0C6761A32A5795D900870981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
